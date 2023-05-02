@@ -133,9 +133,23 @@ nav .me a {
 
 }
 
-.card h1 {
+.card h1  {
     font-size: 20px;
+    
 }
+
+.services .section-tilte ,.about .section-tilte,.client .section-tilte ,.contact .section-tilte {
+    position: relative;
+}
+.services .section-tilte  .linee ,  .about .section-tilte .linee,.client .section-tilte .linee,.contact .section-tilte .linee {
+    position: absolute;
+    content: '';
+    border-bottom: 2px solid green;
+    width: 100%;
+    bottom: 14;
+}
+
+
 
 
 
